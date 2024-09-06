@@ -97,17 +97,6 @@
   font-family: sans-serif;
 }
 
-.footer {
-  padding: 25px;
-  background-color: #111111;
-}
-
-.footer p {
-  color: white;
-  font-family: sans-serif;
-  text-align: center;
-}
-
 /* components/Navbar.module.css */
 .navbar {
   background-color: #111111;
@@ -138,4 +127,53 @@
 .img {
   border-radius: 15px;
   display: inline;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footerColumn {
+  width: 45%;
+}
+
+.footerColumn h3 {
+  border-bottom: 1px solid #555;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.footerColumn ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerColumn ul li {
+  margin-bottom: 10px;
+}
+
+.footerColumn ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footerColumn ul li a:hover {
+  text-decoration: underline;
+}
+
+.footerBottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
 }

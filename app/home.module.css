@@ -12,7 +12,8 @@
 
 .bottomHeader {
   padding: 175px;
-  background-color: #1d3869;
+  /* background-color: #1d3869; */
+  background-color: #161616;
   text-align: center;
 }
 
@@ -62,7 +63,7 @@
 
 .bottomHeader1 {
   padding: 150px;
-  background-color: #769aad;
+  background-color: #9da6ac;
 }
 
 .bottomHeader1 p {

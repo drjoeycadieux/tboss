@@ -24,34 +24,12 @@ export default function Contact() {
         </p>
 
         <section className={styles.section}>
-          <h2>Phone</h2>
-          <p>
-            You can call us at:{" "}
-            <a className={styles.link} href="tel:+1234567890">
-              +1 (234) 567-890
-            </a>
-          </p>
-        </section>
-
-        <section className={styles.section}>
           <h2>Email</h2>
           <p>
             For general inquiries, email us at:{" "}
-            <a className={styles.link} href="mailto:contact@example.com">
-              contact@example.com
+            <a className={styles.link} href="mailto:joey@tech-center.com">
+              joey@tech-center.com
             </a>
-          </p>
-        </section>
-
-        <section className={styles.section}>
-          <h2>Address</h2>
-          <p>Visit us at:</p>
-          <p>
-            123 Example Street,
-            <br />
-            Example City, EX 12345,
-            <br />
-            Country
           </p>
         </section>
 
@@ -62,7 +40,7 @@ export default function Contact() {
             <li>
               <a
                 className={styles.link}
-                href="https://twitter.com/example"
+                href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -72,7 +50,7 @@ export default function Contact() {
             <li>
               <a
                 className={styles.link}
-                href="https://facebook.com/example"
+                href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -82,7 +60,7 @@ export default function Contact() {
             <li>
               <a
                 className={styles.link}
-                href="https://instagram.com/example"
+                href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

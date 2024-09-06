@@ -32,8 +32,6 @@ export default function Home() {
           height={800}
         />
         <br />
-        <br />
-        <button className={styles.button}>Get Started</button>
       </div>
 
       <div className={styles.bottomHeader1}>

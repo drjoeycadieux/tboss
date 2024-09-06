@@ -1,6 +1,6 @@
 import styles from "./home.module.css";
 import Image from "next/image";
-import profilePic1 from "../public/photo1.jpg";
+import profilePic1 from "../public/tboss.png";
 
 // components
 // import Header from "./components/Header";
@@ -28,8 +28,8 @@ export default function Home() {
           className={styles.img}
           src={profilePic1}
           alt="Picture of the author"
-          width={800}
-          height={800}
+          width={600}
+          height={600}
         />
         <br />
       </div>

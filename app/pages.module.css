@@ -1,0 +1,38 @@
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+}
+
+.contactList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.contactList li {
+  margin: 10px 0;
+}
+
+.contactList a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.contactList a:hover {
+  text-decoration: underline;
+}

@@ -1,6 +1,5 @@
 import styles from "./home.module.css";
 import Image from "next/image";
-import profilePic from "../public/photo.jpg";
 import profilePic1 from "../public/photo1.jpg";
 
 // components

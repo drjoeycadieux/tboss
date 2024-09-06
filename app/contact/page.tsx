@@ -1,4 +1,3 @@
-// pages/contact.js
 import Head from "next/head";
 import styles from "../contact.module.css";
 

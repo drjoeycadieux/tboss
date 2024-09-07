@@ -4,7 +4,6 @@ import profilePic1 from "../public/tboss.png";
 import profilePic2 from "../public/yessslogo.jpg";
 
 // components
-// import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 

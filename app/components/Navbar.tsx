@@ -24,6 +24,11 @@ const Navbar: React.FC = () => {
             Support
           </Link>
         </li>
+        <li>
+          <Link className={styles.links} href="/openchat">
+            OpenChat
+          </Link>
+        </li>
       </ul>
     </div>
   );

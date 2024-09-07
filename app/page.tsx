@@ -1,6 +1,7 @@
 import styles from "./home.module.css";
 import Image from "next/image";
 import profilePic1 from "../public/tboss.png";
+import profilePic2 from "../public/yessslogo.jpg";
 
 // components
 // import Header from "./components/Header";
@@ -58,6 +59,15 @@ export default function Home() {
           provides resources, infrastructure, and guidance to help projects
           succeed and to encourage innovation within the open-source community.
         </h4>
+        <br />
+        <Image
+          className={styles.img}
+          src={profilePic2}
+          alt="Picture of the author"
+          width={600}
+          height={600}
+        />
+        <br />
       </div>
 
       <Footer />

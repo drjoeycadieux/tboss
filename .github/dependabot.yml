@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Replace with your package ecosystem (e.g., "npm", "maven", "ruby", "python", etc.)
+    directory: "/" # Directory where your package manager configuration file is located
+    schedule:
+      interval: "daily" # Schedule to check for updates daily
+  - package-ecosystem: "github-actions" # For GitHub Actions updates
+    directory: "/" # Directory where your GitHub Actions workflow files are located
+    schedule:
+      interval: "daily" # Schedule to check for updates daily
